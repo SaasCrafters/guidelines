@@ -26,6 +26,10 @@ This folder contains guidelines related to coding styles and standards that we f
   - Use specific exception types when raising exceptions.
 
 6. Testing
+   - Backend
+       - TDD => `pytest`, `unittest`, `bug-bear`
+   - Frontend
+       - TDD => `jest`, `react-testing`, `playwright`.
   - Write unit tests for critical functions and classes.
   - Ensure test coverage for major features and functionalities.
   - Use descriptive test function names that reflect the tested behavior.
